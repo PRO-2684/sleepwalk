@@ -37,11 +37,11 @@ Villagers will enter the sleepwalk state if they enter a boat while in deep slee
 stateDiagram-v2
     Awake --> Sleep : Fall asleep
     Sleep --> Awake : Wake up.../Move away/Feed/Enter boat
-    Deep sleep --> Awake : Wake up...
+    DeepSleep --> Awake : Wake up...
     Sleepwalk --> Awake : Wake up...
-    Sleep --> Deep sleep : Re-enter/Dimension change
-    Sleepwalk --> Deep sleep : Re-enter/Dimension change
-    Deep sleep --> Sleepwalk : Enter boat
+    Sleep --> DeepSleep : Re-enter/Dimension change
+    Sleepwalk --> DeepSleep : Re-enter/Dimension change
+    DeepSleep --> Sleepwalk : Enter boat
     Sleepwalk --> Sleep : Re-enter/Dimension change outside of boat
 ```
 
