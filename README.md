@@ -4,7 +4,7 @@ A shallow dive into Minecraft villagers' "sleepwalk" trait. Content marked with 
 
 - [[Minecraft] A town portal based on "sleepwalk"](https://www.bilibili.com/video/BV1gmr8YmES8/)
 
-Test worlds can be downloaded from [Releases](https://github.com/PRO-2684/sleepwalk/releases), and 1.21.3+ is recommended for playing.
+Demo world (in Chinese) can be downloaded from [Releases](https://github.com/PRO-2684/sleepwalk/releases), and 1.21.3+ is recommended for playing.
 
 ## Villager states
 

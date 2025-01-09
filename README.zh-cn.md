@@ -4,7 +4,7 @@
 
 - [[Minecraft] 基于“梦游”的一键回城装置](https://www.bilibili.com/video/BV1gmr8YmES8/)
 
-测试存档可以在 [Releases](https://github.com/PRO-2684/sleepwalk/releases) 中下载，建议使用 1.21.3+ 版本游玩。
+Demo 存档可以在 [Releases](https://github.com/PRO-2684/sleepwalk/releases) 中下载，建议使用 1.21.3+ 版本游玩。
 
 ## 村民的状态
 
