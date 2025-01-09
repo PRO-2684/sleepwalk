@@ -25,11 +25,11 @@ Villagers' normal state after falling asleep at night. Will wake up if they move
 
 ### Deep sleep
 
-Villagers will enter deep sleep if the player re-enters the world/dimension while they are in the sleep state, provided that the chunk they are in is unloaded. They will not wake up if they move away from the bed.
+Villagers will enter deep sleep if the player re-enters the world/dimension while they are in the sleep state, provided that the chunk they are in is unloaded. They will not wake up if they move away from the bed, but will be teleported to the vicinity of the bed after re-entering/crossing dimensions. In this state, villagers will not enter a portal.
 
 ### Sleepwalk
 
-Villagers will enter the sleepwalk state if they enter a boat while in deep sleep, and will remain in this state when they leave the boat. If the player re-enters the world/dimension while the villager is not in the boat, they will be teleported to the bed and enter the sleep state. In this state, villagers will try to return to the original bed. If the path is blocked, they will try to sleep in another bed. If successful, the original bed will remain occupied, but other villagers will continue to try to occupy it.
+Villagers will enter the sleepwalk state if they enter a boat while in deep sleep, and will remain in this state when they leave the boat. If the player re-enters the world/dimension while the villager is not in the boat, they will be teleported to the bed and enter the sleep state. In this state, villagers will try to return to the original bed. If the path is blocked, they will try to sleep in another bed. If successful, the original bed will remain occupied, but other villagers will continue to try to occupy it. In this state, villagers will wake up if they cross dimensions, but the bed will not be released and can only be released by breaking and replacing it.
 
 ## Transition diagram
 
