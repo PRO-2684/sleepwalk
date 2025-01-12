@@ -48,10 +48,9 @@ stateDiagram-v2
 ## Damage
 
 - While in deep sleep?/sleepwalk state
-- Injured/frightened? villagers
-- If the chunk containing the occupied bed is unloaded? and the villager is not in a boat
-- They will be teleported to the vicinity of the occupied bed, enter the awake state, and release the bed
-- If injured while in a boat:
+- Injured/frightened villagers
+- If the villager is not in a boat, it will be teleported to the vicinity of the occupied bed, enter the awake state, and release the bed
+- If in a boat:
     - When the bed is not loaded, they will be teleported to the vicinity of the bed, and then back to the boat 2 ticks after the bed is loaded
     - When the bed is loaded, they will not be teleported to the vicinity of the bed, but the injury sound will play from the bed
 
